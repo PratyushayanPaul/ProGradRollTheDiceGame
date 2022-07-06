@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll the dice game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1552985190-626af207368d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Dice image" id="diceimage">
+    <div id="body">
+        <h1>Roll the dice game</h1>
+        Player 1: <button id="button"><p id="player1score"></p></button>&nbsp&nbsp
+        Player 2: <button id="button"><p id="player2score"></p></button>&nbsp&nbsp
+        <button onclick="rolldice()" id="button">Roll!</button>
+        <p id="number">Number: </p>
+        <p id="result">Result: </p>
+        <script src="./dice.js"></script>
+    </div>
+</body>
+</html>
